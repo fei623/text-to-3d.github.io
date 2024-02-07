@@ -1,31 +1,42 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: #FADADD; /* Light pink background */
 }
 
-header, nav, main, footer {
+header {
+    background-color: #FFC0CB; /* Classic pink */
+    color: #FFFFFF;
     padding: 20px;
     text-align: center;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
+main {
+    padding: 20px;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 10px;
+.intro, .more-info {
+    background-color: #FFF0F5; /* Lavender blush for content backgrounds */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: black;
+h1, h2 {
+    color: #D74894; /* Strong pink for headings */
+}
+
+p {
+    color: #333333; /* Dark grey for text for readability */
 }
 
 footer {
-    margin-top: 20px;
-    background-color: #f3f3f3;
+    background-color: #FFC0CB; /* Classic pink */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
